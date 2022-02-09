@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{834825D8-4343-4D9C-8859-8F5DC9CF0C8D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Diagnostic_lab_Reporting_System</RootNamespace>
+    <AssemblyName>Diagnostic lab Reporting System</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Aboutus.aspx" />
+    <Content Include="Adminloginform.aspx" />
+    <Content Include="AppointmentReport.aspx" />
+    <Content Include="App_Data\TestbookingDb.mdf" />
+    <Content Include="App_Data\TestbookingDb_log.ldf">
+      <DependentUpon>TestbookingDb.mdf</DependentUpon>
+    </Content>
+    <Content Include="Bookappointment.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="EditTest.aspx" />
+    <Content Include="FeedbackReport.aspx" />
+    <Content Include="pictures\bloodtest.jpeg" />
+    <Content Include="CancelBooking.aspx" />
+    <Content Include="Devgad.aspx" />
+    <Content Include="diagnosticcenter.aspx" />
+    <Content Include="Dodamarg.aspx" />
+    <Content Include="Feedbackform.aspx" />
+    <Content Include="Forgetpasswordformadmin.aspx" />
+    <Content Include="Homepage.aspx" />
+    <Content Include="HomepageAdminaspx.aspx" />
+    <Content Include="Kankavli.aspx" />
+    <Content Include="Kudal.aspx" />
+    <Content Include="Malwan.aspx" />
+    <Content Include="MyAccount.aspx" />
+    <Content Include="patientforgetpassword.aspx" />
+    <Content Include="PatientLogin.aspx" />
+    <Content Include="pictures\background.jpeg" />
+    <Content Include="pictures\diagnosticlab.jpeg" />
+    <Content Include="pictures\diagnosticlab2.jpeg" />
+    <Content Include="pictures\footer image.jpeg" />
+    <Content Include="pictures\image1.jpg" />
+    <Content Include="pictures\image2.jpeg" />
+    <Content Include="pictures\image3.jpg" />
+    <Content Include="pictures\image4.jpeg" />
+    <Content Include="pictures\image5.jpeg" />
+    <Content Include="pictures\lab technician.jpeg" />
+    <Content Include="pictures\Lab-Diagnostic pic.jpeg" />
+    <Content Include="pictures\lab.jpeg" />
+    <Content Include="pictures\texture.jpeg" />
+    <Content Include="pictures\texture2.jpeg" />
+    <Content Include="Registrationformaspx.aspx" />
+    <Content Include="Sawantwadi.aspx" />
+    <Content Include="Testdetailsaspx.aspx" />
+    <Content Include="TestSearch.aspx" />
+    <Content Include="Vaibhavwadi.aspx" />
+    <Content Include="Vengurla.aspx" />
+    <Content Include="ViewtestDetails.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aboutus.aspx.cs">
+      <DependentUpon>Aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aboutus.aspx.designer.cs">
+      <DependentUpon>Aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adminloginform.aspx.cs">
+      <DependentUpon>Adminloginform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adminloginform.aspx.designer.cs">
+      <DependentUpon>Adminloginform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentReport.aspx.cs">
+      <DependentUpon>AppointmentReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppointmentReport.aspx.designer.cs">
+      <DependentUpon>AppointmentReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bookappointment.aspx.cs">
+      <DependentUpon>Bookappointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bookappointment.aspx.designer.cs">
+      <DependentUpon>Bookappointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CancelBooking.aspx.cs">
+      <DependentUpon>CancelBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CancelBooking.aspx.designer.cs">
+      <DependentUpon>CancelBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Devgad.aspx.cs">
+      <DependentUpon>Devgad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Devgad.aspx.designer.cs">
+      <DependentUpon>Devgad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="diagnosticcenter.aspx.cs">
+      <DependentUpon>diagnosticcenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="diagnosticcenter.aspx.designer.cs">
+      <DependentUpon>diagnosticcenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dodamarg.aspx.cs">
+      <DependentUpon>Dodamarg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dodamarg.aspx.designer.cs">
+      <DependentUpon>Dodamarg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditTest.aspx.cs">
+      <DependentUpon>EditTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTest.aspx.designer.cs">
+      <DependentUpon>EditTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Feedbackform.aspx.cs">
+      <DependentUpon>Feedbackform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Feedbackform.aspx.designer.cs">
+      <DependentUpon>Feedbackform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeedbackReport.aspx.cs">
+      <DependentUpon>FeedbackReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeedbackReport.aspx.designer.cs">
+      <DependentUpon>FeedbackReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forgetpasswordformadmin.aspx.cs">
+      <DependentUpon>Forgetpasswordformadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forgetpasswordformadmin.aspx.designer.cs">
+      <DependentUpon>Forgetpasswordformadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomepageAdminaspx.aspx.cs">
+      <DependentUpon>HomepageAdminaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomepageAdminaspx.aspx.designer.cs">
+      <DependentUpon>HomepageAdminaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kankavli.aspx.cs">
+      <DependentUpon>Kankavli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kankavli.aspx.designer.cs">
+      <DependentUpon>Kankavli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kudal.aspx.cs">
+      <DependentUpon>Kudal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kudal.aspx.designer.cs">
+      <DependentUpon>Kudal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Labreportingsystem.Master.cs">
+      <DependentUpon>Labreportingsystem.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Labreportingsystem.Master.designer.cs">
+      <DependentUpon>Labreportingsystem.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Malwan.aspx.cs">
+      <DependentUpon>Malwan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Malwan.aspx.designer.cs">
+      <DependentUpon>Malwan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount.aspx.cs">
+      <DependentUpon>MyAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount.aspx.designer.cs">
+      <DependentUpon>MyAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="patientforgetpassword.aspx.cs">
+      <DependentUpon>patientforgetpassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="patientforgetpassword.aspx.designer.cs">
+      <DependentUpon>patientforgetpassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PatientLogin.aspx.cs">
+      <DependentUpon>PatientLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PatientLogin.aspx.designer.cs">
+      <DependentUpon>PatientLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registrationformaspx.aspx.cs">
+      <DependentUpon>Registrationformaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registrationformaspx.aspx.designer.cs">
+      <DependentUpon>Registrationformaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sawantwadi.aspx.cs">
+      <DependentUpon>Sawantwadi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sawantwadi.aspx.designer.cs">
+      <DependentUpon>Sawantwadi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestbookingDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestbookingDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Testdetailsaspx.aspx.cs">
+      <DependentUpon>Testdetailsaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Testdetailsaspx.aspx.designer.cs">
+      <DependentUpon>Testdetailsaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestSearch.aspx.cs">
+      <DependentUpon>TestSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestSearch.aspx.designer.cs">
+      <DependentUpon>TestSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vaibhavwadi.aspx.cs">
+      <DependentUpon>Vaibhavwadi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vaibhavwadi.aspx.designer.cs">
+      <DependentUpon>Vaibhavwadi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vengurla.aspx.cs">
+      <DependentUpon>Vengurla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vengurla.aspx.designer.cs">
+      <DependentUpon>Vengurla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewtestDetails.aspx.cs">
+      <DependentUpon>ViewtestDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewtestDetails.aspx.designer.cs">
+      <DependentUpon>ViewtestDetails.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Labreportingsystem.Master" />
+    <Content Include="TestbookingDataSet1.xsc">
+      <DependentUpon>TestbookingDataSet1.xsd</DependentUpon>
+    </Content>
+    <None Include="TestbookingDataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TestbookingDataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="TestbookingDataSet1.xss">
+      <DependentUpon>TestbookingDataSet1.xsd</DependentUpon>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56625</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60579/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,19 @@
+D:\projectasp.net\Diagnostic lab Reporting System\Diagnostic lab Reporting System\bin\Diagnostic lab Reporting System.dll
+D:\projectasp.net\Diagnostic lab Reporting System\Diagnostic lab Reporting System\bin\Diagnostic lab Reporting System.pdb
+D:\projectasp.net\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\DiagnosticlabReportingSystem.csprojResolveAssemblyReference.cache
+D:\projectasp.net\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\Diagnostic lab Reporting System.dll
+D:\projectasp.net\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\Diagnostic lab Reporting System.pdb
+E:\Diagnostic lab Reporting System\Diagnostic lab Reporting System\bin\Diagnostic lab Reporting System.dll
+E:\Diagnostic lab Reporting System\Diagnostic lab Reporting System\bin\Diagnostic lab Reporting System.pdb
+E:\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\DiagnosticlabReportingSystem.csprojResolveAssemblyReference.cache
+E:\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\Diagnostic lab Reporting System.dll
+E:\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\Diagnostic lab Reporting System.pdb
+D:\projectasp.net\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\RdlCompile.cache
+D:\projectasp.net\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\RdlCompile.compiled
+C:\Users\Akshu\Documents\Diagnostic lab Reporting System\Diagnostic lab Reporting System\bin\Diagnostic lab Reporting System.dll
+C:\Users\Akshu\Documents\Diagnostic lab Reporting System\Diagnostic lab Reporting System\bin\Diagnostic lab Reporting System.pdb
+C:\Users\Akshu\Documents\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\DiagnosticlabReportingSystem.csprojResolveAssemblyReference.cache
+C:\Users\Akshu\Documents\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\RdlCompile.cache
+C:\Users\Akshu\Documents\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\RdlCompile.compiled
+C:\Users\Akshu\Documents\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\Diagnostic lab Reporting System.dll
+C:\Users\Akshu\Documents\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\Diagnostic lab Reporting System.pdb

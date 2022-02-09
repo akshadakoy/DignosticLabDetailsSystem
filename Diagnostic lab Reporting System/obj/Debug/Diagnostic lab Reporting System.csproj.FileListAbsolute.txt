@@ -1,0 +1,5 @@
+D:\projectasp.net\Diagnostic lab Reporting System\Diagnostic lab Reporting System\bin\Diagnostic lab Reporting System.dll
+D:\projectasp.net\Diagnostic lab Reporting System\Diagnostic lab Reporting System\bin\Diagnostic lab Reporting System.pdb
+D:\projectasp.net\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\Diagnostic lab Reporting System.csprojResolveAssemblyReference.cache
+D:\projectasp.net\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\Diagnostic lab Reporting System.dll
+D:\projectasp.net\Diagnostic lab Reporting System\Diagnostic lab Reporting System\obj\Debug\Diagnostic lab Reporting System.pdb
